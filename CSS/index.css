@@ -1,0 +1,28 @@
+
+h1{
+     color: rgb(255, 222, 37);
+     text-align: center;
+}
+
+h2{
+    color: cornsilk;
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    color: cornsilk;
+}
+
+p{
+     color: hsl(36, 100%, 76%);
+}
+
+footer{
+     background-color: rgb(39, 39, 39);
+     padding: 20px;
+}
+
+body{
+     background-color: rgb(33, 96, 233);
+}
