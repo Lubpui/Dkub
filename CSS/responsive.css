@@ -1,16 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-.container01{
-    height: 100%;
-    background-image: url('../img/Desk01.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+.containerBG {
+  height: 100%;
+  background-image: url("../img/Desk01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+@media screen and (max-width: 1500px) {
+    .MyProfile {
+      width: 50%;
+    }
+  
+    aside {
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .MyProfile {
+      width: 60%;
+    }
+  }
+  
